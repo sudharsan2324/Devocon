@@ -1,0 +1,151 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    /* background-image: url("Images/black.png"); */
+    background-color: black;
+    height: 180vh;
+    width: 100%;
+    background-size: cover;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-family: poppins;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-weight: bold;
+    font-size: 120%;
+    margin-left: 25px;
+}
+
+.logoimg{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.menu{
+    align-content: center;
+}
+
+.menu ul{
+    display: flex;
+    margin-right: 30px;
+}
+
+.item{
+    margin-left: 50px;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 110%;
+}
+
+.menu ul li a:hover{
+    color:#02f0ef;
+    text-decoration: underline;
+}
+
+.content{
+    margin-top: 100px;
+    color: whitesmoke;
+}
+
+.promo1{ 
+    display: flex;
+    margin: 40px;
+    padding: 40px;
+    font-family: poppins;
+    /* margin-left: 30px; */
+}
+
+.promo2{
+    display: flex;
+    margin: 40px;
+    padding: 40px;
+    font-family: poppins;
+}
+
+.promo3{
+    display: flex;
+    margin: 40px;
+    padding: 40px;
+    font-family: poppins;
+}
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 1px solid white;
+    padding-left:80px ;
+    padding-right:80px ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.2);
+    border: 1px solid #f5dca8;
+    background: transparent;
+    color: white;
+    transition: .2s;
+}
+
+.promo{
+    color: white;
+    font-family: poppins;
+    margin-left: 100px;
+    margin-top: 50px;
+    /* text-decoration: underline; */
+}
+
+.video{
+    padding-left: 30px;
+}
+
+.sample{
+    padding-right: 20px;
+}
+
+
+
+
+.sample1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.paras{
+    color: white;
+}
